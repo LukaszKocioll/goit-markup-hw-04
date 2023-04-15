@@ -361,23 +361,15 @@ header {
   padding: 0 15px;
 }
 .icon-email {
-  cursor: pointer;
   width: 16px;
   height: 12px;
 }
-.icon-email:hover {
-  cursor: pointer;
-  fill: var(--background-hover-color);
-}
+
 .icon-smartphone {
-  cursor: pointer;
-  width: 16px;
-  height: 12px;
+  width: 10px;
+  height: 16px;
 }
-.icon-smartphone:hover {
-  cursor: pointer;
-  fill: var(--background-hover-color);
-}
+
 .icon-description {
   display: flex;
   margin: 0 auto;
@@ -393,10 +385,7 @@ header {
   height: 44px;
 }
 .icon-social:hover {
-  border-radius: 50%;
-  cursor: pointer;
   fill: var(--border-projects);
-  background-color: #2196f3;
 }
 .our-customers {
   margin: 0 auto 50px auto;
@@ -406,10 +395,14 @@ header {
   font-size: 36px;
 }
 .icon-customers {
+  fill: var(--border-customers);
   cursor: pointer;
-  width: 106px;
-  height: 60px;
 }
+.icon-customers:hover {
+  fill: var(--background-hover-color);
+  cursor: pointer;
+}
+
 .our-customers-flex {
   justify-content: space-between;
   display: flex;
@@ -444,26 +437,12 @@ header {
   border-radius: 4px;
 }
 .icon-social-flex {
-  border-radius: 50%;
   cursor: pointer;
   justify-content: space-between;
   padding: 16px 32px 18px 32px;
   display: flex;
 }
-.icon-social-footer {
-  cursor: pointer;
-  background-color: var(--icons-footer);
-  padding: 12px;
-  display: flex;
-  fill: var(--text-button);
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
-}
-.icon-social-footer:hover {
-  cursor: pointer;
-  background-color: #2196f3;
-}
+
 .footer-flex {
   display: flex;
 }
@@ -491,4 +470,33 @@ header {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+.icon-border:hover {
+  border-radius: 50%;
+  fill: var(--border-projects);
+  background-color: #2196f3;
+}
+.icon-border-footer {
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--icons-footer);
+  padding: 12px;
+  display: flex;
+  fill: var(--text-button);
+  width: 44px;
+  height: 44px;
+}
+.icon-border-footer:hover {
+  border-radius: 50%;
+  background-color: var(--background-hover-color);
+}
+.hover-email:hover {
+  margin: 0 0;
+  cursor: pointer;
+  fill: var(--background-hover-color);
+}
+.hover-telephone:hover {
+  margin: 0 0;
+  cursor: pointer;
+  fill: var(--background-hover-color);
 }
